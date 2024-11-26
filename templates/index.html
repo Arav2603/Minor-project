@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autism Detection</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Autism Detection</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About Autism</a></li>
+                <li><a href="#upload">Upload Image</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1><strong>Detect Autism in Children</strong></h1>
+            <p>Upload an image to determine if the child is autistic or not. Early detection can help provide timely support and care.</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>What is Autism?</h2>
+        <p>
+            Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that affects individuals in varying degrees of severity. Characterized by difficulties in social interaction, communication challenges, and repetitive behaviors, autism impacts how a person perceives and interacts with the world. These challenges can manifest in subtle or profound ways, and no two individuals with autism experience it in the same way.
+        </p>
+        <p>
+            The exact causes of autism remain elusive, though research suggests that it arises from a combination of genetic predispositions and environmental influences. Early signs of autism often emerge in childhood, such as limited eye contact, delayed speech, or difficulty in understanding social cues. However, early intervention with therapies tailored to the individual’s needs—such as speech, occupational, and behavioral therapies—has proven to be highly effective in fostering development and independence.
+        </p>
+        <p>
+            While autism is often viewed through the lens of its challenges, it is equally important to recognize the strengths and unique abilities of individuals on the spectrum. Many exhibit remarkable skills, including heightened attention to detail, exceptional memory, or deep expertise in specific areas of interest. An inclusive society that values these strengths, while offering necessary accommodations, paves the way for individuals with autism to thrive and make meaningful contributions.
+        </p>
+        <div class="autism-images">
+            <img src="../images/autistic1.jpg" alt="Child playing">
+            <img src="../images/photo-1624623327828-6faa89cb4b96.avif" alt="Children playing together">
+        </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section id="upload" class="upload-section">
+        <h2>Upload Image</h2>
+        <input type="file" id="imageInput" class="file-input">
+        <button onclick="uploadImage()" class="btn">Predict</button>
+        <div id="result" class="result-section"></div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+        <p>&copy; 2024 Autism Detection Project | <a href="mailto:support@autismdetection.com">Contact Us</a></p>
+    </footer>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8faff; /* Light blue background */
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #004080; /* Deep blue */
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00; /* Yellow accent */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+/* Header Section */
+.header {
+    background-color: #004080; /* Deep blue */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+/* About Section */
+.about-section {
+    padding: 30px;
+    text-align: center;
+    background-color: #e8f1ff; /* Soft light blue */
+}
+
+.about-section h2 {
+    color: #004080;
+}
+
+.about-section p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.autism-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Increased gap */
+    margin-top: 20px;
+}
+
+.autism-images img {
+    width: 250px; /* Increased size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Upload Section */
+.upload-section {
+    padding: 30px;
+    text-align: center;
+}
+
+.upload-section h2 {
+    color: #004080;
+}
+
+.file-input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 300px;
+}
+
+.btn {
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #003366; /* Darker blue */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+/* Result Section Styles */
+.result-section {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #e8f1ff; /* Light blue for better visibility */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold; /* Makes the text bold */
+    font-size: 20px; /* Increased font size */
+    color: #004080; /* Deep blue for consistency */
+    text-align: center; /* Center-align the text */
+}
+
